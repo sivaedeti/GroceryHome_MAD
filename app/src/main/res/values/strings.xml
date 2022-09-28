@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">groceryHome</string>
+    <string name="app_name">profile_grocery</string>
+    <string name="myacc_profile">My Account</string>
+    <string name="name_profile">John Stalin</string>
+    <string name="number_profile">8963734637</string>
+    <string name="grocery_home">GroceryHome</string>
+    <string name="text_started">Your grocery partner at \n a step away</string>
+    <string name="getstarted">Get Started</string>
+    <string name="address">Address</string>
 </resources>
