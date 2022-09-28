@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
  * create an instance of this fragment.
  */
 public class HomeFragment extends Fragment implements View.OnClickListener{
-    FirebaseAuth mAuth;
+//    FirebaseAuth mAuth;
     Button buttonLogOut;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,7 +64,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        mAuth= FirebaseAuth.getInstance();
+//        mAuth= FirebaseAuth.getInstance();
         View myView = inflater.inflate(R.layout.fragment_home, container, false);
         buttonLogOut=(Button) myView.findViewById(R.id.logoutButton);
         buttonLogOut.setOnClickListener(this);
